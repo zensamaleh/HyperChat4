@@ -1,106 +1,43 @@
 export const termsMdx = `
-### Terms and Conditions
---------------------------------
+Conditions Générales d’Utilisation
 
-Last Updated: August 10, 2024
+Dernière mise à jour : 30 août 2025
 
-Welcome to hyper-fix.vercel.app! These Terms and Conditions ("Terms") govern your use of the hyper-fix.vercel.app website and services (the "Service"). By accessing or using our Service, you agree to be bound by these Terms. If you do not agree with any part of these Terms, you must not use the Service.
+Ces conditions générales ont été rédigées par Samaleh Mohamed Hassan, développeur junior spécialisé en Next.js et Python, avec un intérêt particulier pour la recherche en intelligence artificielle. En utilisant ce service, vous acceptez les règles suivantes :
 
-### 1. Acceptance of Terms
+1. Accès et âge
 
-By using the Service, you agree to comply with and be legally bound by these Terms, whether you are a registered user or not. If you do not agree to these Terms, you must not use the Service.
+Le service est accessible aux utilisateurs de 13 ans et plus. Les mineurs de moins de 18 ans doivent obtenir l’autorisation d’un parent ou tuteur légal.
 
-### 2. Definitions
+2. Données et confidentialité
 
-- "Service" refers to the hyper-fix.vercel.app platform, including all related software, applications, and services provided by hyper-fix.vercel.app.
-- "User" refers to any individual or entity that accesses or uses the Service.
-- "Content" refers to any text, images, code, or other data uploaded, posted, or otherwise made available through the Service.
+Aucune donnée personnelle ni historique de conversation n’est stockée sur nos serveurs.
+Toutes les informations restent localement sur votre appareil, et vous êtes responsable de leur gestion.
 
-### 3. Age Requirements
+3. Connexion et usage équitable
 
-You must be at least 13 years of age to use the Service. If you are under 18 years of age, you must have the consent of a parent or legal guardian to use the Service. By using the Service, you represent and warrant that you meet these age requirements. We reserve the right to request proof of age at any time, and to suspend or terminate your access to the Service if we have reason to believe you do not meet the minimum age requirements.
+La connexion est uniquement destinée à garantir un usage équitable des fonctionnalités gratuites :
+	•	Les utilisateurs connectés bénéficient d’un quota d’utilisation étendu.
+	•	Les utilisateurs anonymes disposent d’un accès limité.
 
-### 4. Privacy and Data Storage
+4. Utilisation du service (Personnalisé pour Hyper)
 
-At hyper-fix.vercel.app, we prioritize your privacy. We do not store your chat history on our servers. All chat history is stored locally on your device, and we do not have access to your personal conversations. By using the Service, you agree to this local storage and understand that you are responsible for securing your own data.
+Le service Hyper est conçu pour des usages ciblés :
+	•	Structuration des informations
+	•	Correction et classification des données
+	•	Recherche professionnelle via les modules DeepSearching et ProSearching
+Le service ne répond pas aux demandes hors de ce cadre.
 
-### 5. User Authorization and Login
+5. Propriété intellectuelle
 
-Users are only required to log in to authorize themselves if they wish to access certain freely available usage on a daily basis. This authorization helps us manage fair usage and prevent abuse of the free features. Your login information will be used solely for authentication and access management.
+Tous les droits liés au service et à son contenu appartiennent exclusivement à Samaleh Mohamed Hassan (Arka).
 
-### 6. Use of the Service
+6. Droit applicable
 
-You agree to use the Service only for lawful purposes and in a manner that does not infringe the rights of, or restrict or inhibit the use and enjoyment of the Service by, any third party. Prohibited activities include, but are not limited to:
+Les présentes conditions sont régies par la législation de la République de Djibouti.
 
-- Engaging in illegal activities or using the Service to transmit or store illegal content.
-- Violating any applicable laws or regulations.
-- Interfering with or disrupting the integrity or performance of the Service.
-- Using the Service for any harmful, threatening, abusive, harassing, defamatory, or otherwise objectionable purpose.
-- Attempting to gain unauthorized access to servers or networks connected to the Service.
-- Transmitting viruses, malware, or other malicious code.
-- Collecting or harvesting personal data about other users.
-- Using the Service to generate or share content that infringes on intellectual property or privacy rights of others.
+7. Contact
 
-### 7. AI Outputs and No Professional Advice
-
-The outputs from hyper-fix.vercel.app are generated using large language models. These outputs might not always be accurate, complete, or up-to-date. You acknowledge that all outputs and responses are provided on an "as is" basis. The Service is not a substitute for professional advice (legal, medical, financial, or otherwise). Always seek the guidance of qualified professionals before making decisions based on the outputs generated by the Service.
-
-### 8. Intellectual Property
-
-- Ownership: hyper-fix.vercel.app and its licensors own all rights, title, and interest in and to the Service, including any underlying software, technology, and content (excluding User Content).
-- User Content License: By submitting or transmitting any content ("User Content") to the Service, you grant hyper-fix.vercel.app a non-exclusive, worldwide, royalty-free license to store, display, process, and use your User Content in connection with providing and improving the Service.
-- Trademarks: All trademarks, service marks, logos, and trade names belonging to hyper-fix.vercel.app are trademarks of hyper-fix.vercel.app.
-
-### 9. Termination
-
-We reserve the right to terminate or suspend your account and access to the Service at our sole discretion, without notice, for conduct that we believe violates these Terms or is harmful to other users or the Service.
-
-### 10. Warranties and Disclaimers
-
-The Service is provided "as is" and "as available" without any warranties of any kind, whether express or implied. We do not warrant that the Service will be uninterrupted, secure, or free of errors or viruses. Since your data is stored locally, we are not responsible for data loss or corruption. We do not guarantee the accuracy, completeness, or timeliness of any information provided through the Service.
-
-### 11. Limitation of Liability
-
-In no event shall hyper-fix.vercel.app, its affiliates, or its licensors be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from:
-
-- Your use or inability to use the Service.
-- Any unauthorized access to or use of our servers.
-- Any bugs, viruses, or other harmful code.
-
-In no event will hyper-fix.vercel.app's total liability exceed one hundred US dollars (USD $100).
-
-### 12. Indemnification
-
-You agree to indemnify, defend, and hold harmless hyper-fix.vercel.app, its affiliates, and its licensors from and against any and all claims, damages, losses, liabilities, costs, and expenses arising from or related to your use of the Service or any violation of these Terms.
-
-### 13. Third-Party Services
-
-The Service may integrate or link to third-party services or content. We do not endorse or assume responsibility for such third-party services. Your interactions with these third-party services are governed by their own terms and policies.
-
-### 14. Changes to the Service
-
-We reserve the right to modify, suspend, or discontinue the Service (in whole or in part) at any time, with or without notice to you. We will not be liable to you or any third party for any such modifications, suspension, or discontinuation.
-
-### 15. Governing Law
-
-These Terms shall be governed by and construed in accordance with the laws of Canada. Any disputes arising from or relating to these Terms or the Service shall be resolved in the courts of Quebec, Canada.
-
-### 16. General Provisions
-
-- Severability: If any provision of these Terms is found to be invalid or unenforceable, the remaining provisions will continue in full force and effect.
-- No Waiver: Any failure by us to enforce any right or provision under these Terms does not constitute a waiver of future enforcement of that right or provision.
-- Entire Agreement: These Terms constitute the entire agreement between you and hyper-fix.vercel.app regarding your use of the Service.
-- Assignment: You may not assign or transfer these Terms without our prior written consent. We may freely assign or transfer these Terms.
-
-### 17. Changes to Terms
-
-We reserve the right to modify these Terms at any time. If we make material changes to the Terms, we will notify you by posting a notice on our website prior to the effective date of the changes. Your continued use of the Service after the effective date constitutes your acceptance of the modified Terms.
-
-### 18. Contact Information
-
-If you have any questions about these Terms, please contact us at:
-
-hyper-fix.vercel.app
-Montreal, Canada
-contact@hyper-fix.vercel.app
+Pour toute question concernant ces conditions :
+📧 samaleh2018@gmail.com
 `;
