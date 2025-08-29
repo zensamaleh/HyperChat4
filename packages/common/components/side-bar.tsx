@@ -142,7 +142,7 @@ export const Sidebar = () => {
                             <Logo className="text-brand size-5" />
                             {isSidebarOpen && (
                                 <p className="font-clash text-foreground text-lg font-bold tracking-wide">
-                                    hyper-fix.vercel.app
+                                    HyperFix
                                 </p>
                             )}
                         </motion.div>

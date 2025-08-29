@@ -269,11 +269,11 @@ const AnimatedTitles = ({ titles = [] }: AnimatedTitlesProps) => {
             const hour = new Date().getHours();
 
             if (hour >= 5 && hour < 12) {
-                return 'Good morning';
+                return 'Bonjour hyper';
             } else if (hour >= 12 && hour < 18) {
-                return 'Good afternoon';
+                return 'Bon après-midi hyper';
             } else {
-                return 'Good evening';
+                return 'Bonsoir hyper';
             }
         };
 
