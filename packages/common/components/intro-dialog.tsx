@@ -27,15 +27,15 @@ export const IntroDialog = () => {
     const points = [
         {
             icon,
-            text: `**Agent de Classification d'Articles**: Structure et organise vos articles avec une précision chirurgicale, en les alignant parfaitement avec votre hiérarchie interne.`,
+            text: `**Agent de Classification d'Articles** : Structure et organise vos articles en fonction de la hiérarchie du magasin, en respectant les secteurs, rayons, familles et sous-familles.`,
         },
         {
             icon,
-            text: `**Agent de Conversion PDF vers Excel (Pro)**: Transforme vos documents PDF professionnels en feuilles de calcul Excel exploitables, facilitant l'analyse et la gestion des données.`,
+            text: `**Agent de Conversion PDF vers Excel (Pro)** : Convertit vos factures PDF en tableaux Excel bien structurés, prêts pour l’analyse et la gestion.`,
         },
         {
             icon,
-            text: `**Agent de Correction de Libellés**: Assure la cohérence et la justesse de vos terminologies et descriptions, garantissant une communication unifiée.`,
+            text: `**Agent de Correction de Libellés** : Corrige vos libellés selon les normes en vigueur, en respectant les règlements, la marque, les descriptions et le grammage.`,
         },
         {
             icon,
@@ -75,7 +75,11 @@ export const IntroDialog = () => {
                             </p>
                         </div>
                         <p className="text-base font-semibold">
-                            Solution d'Agents IA sur Mesure pour HyperFix
+                            Solutions Personnalisées d'Agents IA pour HyperFix
+                        </p>
+                        <p className="text-muted-foreground text-sm">
+                            Des agents intelligents sur mesure, conçus pour répondre
+                            spécifiquement aux besoins uniques d'HyperFix.
                         </p>
                     </div>
 
