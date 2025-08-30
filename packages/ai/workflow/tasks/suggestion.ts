@@ -35,6 +35,7 @@ export const suggestionsTask = createTask<WorkflowEventSchema, WorkflowContextSc
                 </answer>
 
                 - suggest new questions user might have based on the answer and the current question. make sure questions are concise and to the point.
+                - The followup questions should always be in French, regardless of the language of the user's question.
                 `;
 
         const object = await generateObject({
