@@ -24,18 +24,18 @@ export const examplePrompts = {
         'Comment fonctionne la technologie de capture du carbone pour lutter contre le changement climatique ?',
     ],
 
-    creative: [
+    examplePrompts: [
         "Écrivez une nouvelle sur une rencontre fortuite qui change la vie de quelqu'un.",
         'Créez une recette pour un plat fusion combinant les cuisines italienne et japonaise.',
         'Concevez une ville durable fictive du futur.',
-        'Développez le profil d'un personnage pour le protagoniste d'un roman de science-fiction.',
+        'Développez le profil d\'un personnage pour le protagoniste d\'un roman de science-fiction.',
     ],
 
     advice: [
         "Quelle est la meilleure approche pour négocier une augmentation de salaire ?",
         'Comment dois-je me préparer pour un marathon en tant que coureur débutant ?',
-        'Quelles stratégies peuvent aider à gérer l'équilibre entre vie professionnelle et vie privée en travaillant à distance ?',
-        'Que dois-je prendre en considération lors de la première adoption d'un animal de compagnie ?',
+        'Quelles stratégies peuvent aider à gérer l\'équilibre entre vie professionnelle et vie privée en travaillant à distance ?',
+        'Que dois-je prendre en considération lors de la première adoption d\'un animal de compagnie ?',
     ],
 
     analysis: [
