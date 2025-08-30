@@ -27,31 +27,19 @@ export const IntroDialog = () => {
     const points = [
         {
             icon,
-            text: `**Privacy-focused**: Your chat history never leaves your device.`,
+            text: `**Agent de Classification d'Articles**: Structure et organise vos articles avec une précision chirurgicale, en les alignant parfaitement avec votre hiérarchie interne.`,
         },
         {
             icon,
-            text: `**Open source**: Fully transparent and modifiable. Easily deploy it yourself.`,
+            text: `**Agent de Conversion PDF vers Excel (Pro)**: Transforme vos documents PDF professionnels en feuilles de calcul Excel exploitables, facilitant l'analyse et la gestion des données.`,
         },
         {
             icon,
-            text: `**Research-friendly**: Leverage Web Search, Pro Search, and Deep Research features.`,
+            text: `**Agent de Correction de Libellés**: Assure la cohérence et la justesse de vos terminologies et descriptions, garantissant une communication unifiée.`,
         },
         {
             icon,
-            text: `**Comprehensive model support**: Compatible with all mainstream model providers.`,
-        },
-        {
-            icon,
-            text: `**BYOK (Bring Your Own Key)**: Use your own API key for unlimited chat.`,
-        },
-        {
-            icon,
-            text: `**MCP Compatibility**: Connect with any MCP servers/tools (coming soon).`,
-        },
-        {
-            icon,
-            text: `**Usage Tracking**: Monitor your model usage without paying (coming soon).`,
+            text: `**Prochaines Évolutions (Bientôt Disponible)**: L'intégration de nouveaux agents est prévue pour couvrir un éventail encore plus large de vos besoins opérationnels.`,
         },
     ];
 
@@ -83,16 +71,16 @@ export const IntroDialog = () => {
                         >
                             <Logo className="text-brand size-5" />
                             <p className="font-clash text-foreground text-lg font-bold tracking-wide">
-                                hyper-fix.vercel.app
+                                HyperFix
                             </p>
                         </div>
                         <p className="text-base font-semibold">
-                            Private, Open-Source, and Built for You
+                            Solution d'Agents IA sur Mesure pour HyperFix
                         </p>
                     </div>
 
                     <div className="flex flex-col gap-2">
-                        <h3 className="text-sm font-semibold">Key benefits:</h3>
+                        <h3 className="text-sm font-semibold">Nos Agents :</h3>
 
                         <div className="flex flex-col items-start gap-1.5">
                             {points.map((point, index) => (
