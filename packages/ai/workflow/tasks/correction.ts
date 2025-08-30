@@ -50,7 +50,27 @@ Assemblez les composants extraits dans l'ordre strict suivant, en les séparant 
 S'il n'y a pas de marque, l'ordre sera : [DESCRIPTION] [QUANTITÉ].
 S'il n'y a pas de quantité, l'ordre sera : [MARQUE] [DESCRIPTION].
 S'il n'y a ni marque ni quantité, le libellé corrigé sera simplement la description nettoyée.
-ÉTAPE 4 : FORMATAGE FINAL
+
+ÉTAPE 4 : RÉORGANISATION LOGIQUE DE LA DESCRIPTION
+
+Appliquez les ajustements nécessaires pour réorganiser les groupes de mots dans la description du produit, afin de garantir un ordre plus logique. Les réorganisations doivent se concentrer uniquement sur les parties de la description (hors marque et quantité), tout en préservant leur intégrité.
+
+Exemples de réorganisation des mots dans la description :
+
+"MOUSSANT BAIN" → "BAIN MOUSSANT"
+
+"CREME PEAU" → "PEAU CREME"
+
+"SHAMPOING DOUX" → "DOUX SHAMPOING"
+
+Cas avec plusieurs groupes de mots adjacents :
+
+Lorsqu'il y a plusieurs groupes de mots dans la description qui ne suivent pas un ordre logique, réorganisez-les uniquement si nécessaire, tout en conservant la marque et la quantité intactes. Par exemple :
+
+"CASINO MOUSSANT BAIN 500ML" → "CASINO BAIN MOUSSANT 500ML"
+
+L’objectif est de garantir que les groupes de mots adjacents suivent un ordre naturel et cohérent, sans modifier l'ensemble du libellé du produit (marque, quantité, etc.).
+ÉTAPE 5 : FORMATAGE FINAL
 
 MAJUSCULES : Convertissez l'intégralité du libellé recomposé en majuscules.
 ESPACES : Assurez-vous qu'il n'y a pas d'espaces superflus (doubles espaces, espaces en début ou en fin de chaîne).
