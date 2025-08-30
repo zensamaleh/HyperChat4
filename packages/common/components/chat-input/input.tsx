@@ -34,7 +34,7 @@ export const ChatInput = ({
 
     const { threadId: currentThreadId } = useParams();
     const { editor } = useChatEditor({
-        placeholder: isFollowUp ? 'Ask follow up' : 'Ask anything',
+        placeholder: isFollowUp ? 'Demander un suivi' : 'Demandez n\'importe quoi',
         onInit: ({ editor }) => {
             if (typeof window !== 'undefined' && !isFollowUp && !isSignedIn) {
                 const draftMessage = window.localStorage.getItem('draft-message');

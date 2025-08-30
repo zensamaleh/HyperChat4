@@ -11,38 +11,38 @@ import { Editor } from '@tiptap/react';
 
 export const examplePrompts = {
     howTo: [
-        'How to plan a sustainable vegetable garden for small spaces?',
-        'How to prepare for your first international travel experience?',
-        'How to set up a personal budget that actually works?',
-        'How to improve your public speaking skills for professional settings?',
+        'Comment planifier un potager durable pour les petits espaces ?',
+        'Comment se préparer pour sa première expérience de voyage international ?',
+        'Comment établir un budget personnel qui fonctionne réellement ?',
+        'Comment améliorer ses compétences en prise de parole en public pour un cadre professionnel ?',
     ],
 
     explainConcepts: [
-        'Explain how blockchain technology works in simple terms.',
-        'What is quantum computing and how does it differ from traditional computing?',
-        'Explain the concept of emotional intelligence and its importance.',
-        'How does carbon capture technology work to combat climate change?',
+        'Expliquez le fonctionnement de la technologie blockchain en termes simples.',
+        "Qu'est-ce que l'informatique quantique et en quoi diffère-t-elle de l'informatique traditionnelle ?",
+        "Expliquez le concept d'intelligence émotionnelle et son importance.",
+        'Comment fonctionne la technologie de capture du carbone pour lutter contre le changement climatique ?',
     ],
 
-    creative: [
-        "Write a short story about a chance encounter that changes someone's life.",
-        'Create a recipe for a fusion dish combining Italian and Japanese cuisines.',
-        'Design a fictional sustainable city of the future.',
-        'Develop a character profile for the protagonist of a science fiction novel.',
+    examplePrompts: [
+        "Écrivez une nouvelle sur une rencontre fortuite qui change la vie de quelqu'un.",
+        'Créez une recette pour un plat fusion combinant les cuisines italienne et japonaise.',
+        'Concevez une ville durable fictive du futur.',
+        'Développez le profil d\'un personnage pour le protagoniste d\'un roman de science-fiction.',
     ],
 
     advice: [
-        "What's the best approach to negotiate a salary increase?",
-        'How should I prepare for a marathon as a beginner runner?',
-        'What strategies can help manage work-life balance when working remotely?',
-        'What should I consider when adopting a pet for the first time?',
+        "Quelle est la meilleure approche pour négocier une augmentation de salaire ?",
+        'Comment dois-je me préparer pour un marathon en tant que coureur débutant ?',
+        'Quelles stratégies peuvent aider à gérer l\'équilibre entre vie professionnelle et vie privée en travaillant à distance ?',
+        'Que dois-je prendre en considération lors de la première adoption d\'un animal de compagnie ?',
     ],
 
     analysis: [
-        'Analyze the potential impact of artificial intelligence on healthcare.',
-        'Compare different approaches to addressing climate change.',
-        'Examine the pros and cons of various renewable energy sources.',
-        'Analyze how social media has transformed communication in the past decade.',
+        "Analysez l'impact potentiel de l'intelligence artificielle sur les soins de santé.",
+        'Comparez différentes approches pour lutter contre le changement climatique.',
+        'Examinez les avantages et les inconvénients de diverses sources d\'énergie renouvelable.',
+        'Analysez comment les médias sociaux ont transformé la communication au cours de la dernière décennie.',
     ],
 };
 
@@ -61,11 +61,11 @@ export const getRandomPrompt = (category?: keyof typeof examplePrompts) => {
 
 // Map of category to icon component
 const categoryIcons = {
-    howTo: { name: 'How to', icon: IconQuestionMark, color: '!text-yellow-700' },
-    explainConcepts: { name: 'Explain Concepts', icon: IconBulb, color: '!text-blue-700' },
-    creative: { name: 'Creative', icon: IconPencil, color: '!text-green-700' },
-    advice: { name: 'Advice', icon: IconBook, color: '!text-purple-700' },
-    analysis: { name: 'Analysis', icon: IconChartBar, color: '!text-red-700' },
+    howTo: { name: 'Comment faire', icon: IconQuestionMark, color: '!text-yellow-700' },
+    explainConcepts: { name: 'Expliquer les concepts', icon: IconBulb, color: '!text-blue-700' },
+    creative: { name: 'Créatif', icon: IconPencil, color: '!text-green-700' },
+    advice: { name: 'Conseil', icon: IconBook, color: '!text-purple-700' },
+    analysis: { name: 'Analyse', icon: IconChartBar, color: '!text-red-700' },
 };
 
 export const ExamplePrompts = () => {

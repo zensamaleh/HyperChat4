@@ -150,7 +150,7 @@ export const Sidebar = () => {
                     {isSidebarOpen && (
                         <Button
                             variant="ghost"
-                            tooltip="Close Sidebar"
+                            tooltip="Fermer le volet latéral"
                             tooltipSide="right"
                             size="icon-sm"
                             onClick={() => setIsSidebarOpen(prev => !prev)}
@@ -174,12 +174,12 @@ export const Sidebar = () => {
                                 size={isSidebarOpen ? 'sm' : 'icon-sm'}
                                 variant="bordered"
                                 rounded="lg"
-                                tooltip={isSidebarOpen ? undefined : 'New Thread'}
+                                tooltip={isSidebarOpen ? undefined : 'Nouveau Fil'}
                                 tooltipSide="right"
                                 className={cn(isSidebarOpen && 'relative w-full', 'justify-center')}
                             >
                                 <IconPlus size={16} strokeWidth={2} className={cn(isSidebarOpen)} />
-                                {isSidebarOpen && 'New'}
+                                {isSidebarOpen && 'Nouveau'}
                             </Button>
                         </Link>
                     ) : (
@@ -187,19 +187,19 @@ export const Sidebar = () => {
                             size={isSidebarOpen ? 'sm' : 'icon-sm'}
                             variant="bordered"
                             rounded="lg"
-                            tooltip={isSidebarOpen ? undefined : 'New Thread'}
+                            tooltip={isSidebarOpen ? undefined : 'Nouveau Fil'}
                             tooltipSide="right"
                             className={cn(isSidebarOpen && 'relative w-full', 'justify-center')}
                         >
                             <IconPlus size={16} strokeWidth={2} className={cn(isSidebarOpen)} />
-                            {isSidebarOpen && 'New Thread'}
+                            {isSidebarOpen && 'Nouveau Fil'}
                         </Button>
                     )}
                     <Button
                         size={isSidebarOpen ? 'sm' : 'icon-sm'}
                         variant="bordered"
                         rounded="lg"
-                        tooltip={isSidebarOpen ? undefined : 'Search'}
+                        tooltip={isSidebarOpen ? undefined : 'Rechercher'}
                         tooltipSide="right"
                         className={cn(
                             isSidebarOpen && 'relative w-full',
@@ -208,7 +208,7 @@ export const Sidebar = () => {
                         onClick={() => setIsCommandSearchOpen(true)}
                     >
                         <IconSearch size={14} strokeWidth={2} className={cn(isSidebarOpen)} />
-                        {isSidebarOpen && 'Search'}
+                        {isSidebarOpen && 'Rechercher'}
                         {isSidebarOpen && <div className="flex-1" />}
                         {isSidebarOpen && (
                             <div className="flex flex-row items-center gap-1">
@@ -268,7 +268,7 @@ export const Sidebar = () => {
                         )}
                     >
                         {renderGroup({
-                            title: 'Pinned',
+                            title: 'Épinglé',
                             threads: threads
                                 .filter(thread => thread.pinned)
                                 .sort((a, b) => b.pinnedAt.getTime() - a.pinnedAt.getTime()),
@@ -276,17 +276,17 @@ export const Sidebar = () => {
                             renderEmptyState: () => (
                                 <div className="border-hard flex w-full flex-col items-center justify-center gap-2 rounded-lg border border-dashed p-2">
                                     <p className="text-muted-foreground text-xs opacity-50">
-                                        No pinned threads
+                                        Aucun fil épinglé
                                     </p>
                                 </div>
                             ),
                         })}
-                        {renderGroup({ title: 'Today', threads: groupedThreads.today })}
-                        {renderGroup({ title: 'Yesterday', threads: groupedThreads.yesterday })}
-                        {renderGroup({ title: 'Last 7 Days', threads: groupedThreads.last7Days })}
-                        {renderGroup({ title: 'Last 30 Days', threads: groupedThreads.last30Days })}
+                        {renderGroup({ title: "Aujourd'hui", threads: groupedThreads.today })}
+                        {renderGroup({ title: 'Hier', threads: groupedThreads.yesterday })}
+                        {renderGroup({ title: 'Les 7 derniers jours', threads: groupedThreads.last7Days })}
+                        {renderGroup({ title: 'Les 30 derniers jours', threads: groupedThreads.last30Days })}
                         {renderGroup({
-                            title: 'Previous Months',
+                            title: 'Mois précédents',
                             threads: groupedThreads.previousMonths,
                         })}
                     </Flex>
@@ -304,7 +304,7 @@ export const Sidebar = () => {
                         <Button
                             variant="ghost"
                             size="icon"
-                            tooltip="Open Sidebar"
+                            tooltip="Ouvrir le volet latéral"
                             tooltipSide="right"
                             onClick={() => setIsSidebarOpen(prev => !prev)}
                             className={cn(!isSidebarOpen && 'mx-auto')}
@@ -356,7 +356,7 @@ export const Sidebar = () => {
                             <DropdownMenuContent>
                                 <DropdownMenuItem onClick={() => setIsSettingsOpen(true)}>
                                     <IconSettings size={16} strokeWidth={2} />
-                                    Settings
+                                    Paramètres
                                 </DropdownMenuItem>
                                 {/* {!isSignedIn && (
                                 <DropdownMenuItem onClick={() => push('/sign-in')}>
@@ -367,13 +367,13 @@ export const Sidebar = () => {
                                 {isSignedIn && (
                                     <DropdownMenuItem onClick={() => openUserProfile()}>
                                         <IconUser size={16} strokeWidth={2} />
-                                        Profile
+                                        Profil
                                     </DropdownMenuItem>
                                 )}
                                 {isSignedIn && (
                                     <DropdownMenuItem onClick={() => signOut()}>
                                         <IconLogout size={16} strokeWidth={2} />
-                                        Logout
+                                        Déconnexion
                                     </DropdownMenuItem>
                                 )}
                             </DropdownMenuContent>
@@ -390,10 +390,10 @@ export const Sidebar = () => {
                                 }}
                             >
                                 <IconSettings2 size={14} strokeWidth={2} />
-                                Settings
+                                Paramètres
                             </Button>
                             <Button size="sm" rounded="lg" onClick={() => push('/sign-in')}>
-                                Log in / Sign up
+                                Connexion / Inscription
                             </Button>
                         </div>
                     )}

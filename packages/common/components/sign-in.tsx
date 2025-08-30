@@ -272,11 +272,10 @@ export const CustomSignIn = ({
             <div className="flex w-[300px] flex-col items-center gap-4">
                 <div className="flex flex-col items-center gap-1">
                     <h2 className="font-clash text-foreground !text-brand text-center text-[24px] font-semibold leading-tight">
-                        Check your email
+                        Vérifiez votre messagerie
                     </h2>
                     <p className="text-muted-foreground text-center text-sm">
-                        We've sent a code to your email. Please check your inbox and enter the code
-                        to continue.
+                        Nous avons envoyé un code à votre adresse e-mail. Veuillez vérifier votre boîte de réception et saisir le code pour continuer.
                     </p>
                 </div>
                 <InputOTP
@@ -296,14 +295,14 @@ export const CustomSignIn = ({
                     </InputOTPGroup>
                 </InputOTP>
                 <p className="text-muted-foreground text-center text-sm">
-                    Didn't receive an email?{' '}
+                    Vous n'avez pas reçu d'e-mail ?{' '}
                     <span
                         className={`hover:text-brand text-brand cursor-pointer underline ${
                             resending ? 'pointer-events-none opacity-70' : ''
                         }`}
                         onClick={handleSendCode}
                     >
-                        {resending ? 'Sending...' : 'Resend Code'}
+                        {resending ? 'Envoi en cours...' : 'Renvoyer le code'}
                     </span>
                 </p>
 
@@ -330,7 +329,7 @@ export const CustomSignIn = ({
             </Button>
             <div className="flex w-[320px] flex-col items-center gap-8">
                 <h2 className="text-muted-foreground/70 text-center text-[24px] font-semibold leading-tight">
-                    Sign in to unlock <br /> advanced research tools
+                    Connectez-vous pour débloquer <br /> des outils de recherche avancés
                 </h2>
 
                 <div className="flex w-[300px] flex-col space-y-1.5">
@@ -344,7 +343,7 @@ export const CustomSignIn = ({
                         ) : (
                             <FaGoogle className=" size-3" />
                         )}
-                        {isLoading === 'google' ? 'Authenticating...' : 'Continue with Google'}
+                        {isLoading === 'google' ? 'Authentification...' : 'Continuer avec Google'}
                     </Button>
 
                     <Button
@@ -357,23 +356,23 @@ export const CustomSignIn = ({
                         ) : (
                             <FaGithub className=" size-3" />
                         )}
-                        {isLoading === 'github' ? 'Authenticating...' : 'Continue with GitHub'}
+                        {isLoading === 'github' ? 'Authentification...' : 'Continuer avec GitHub'}
                     </Button>
                 </div>
                 <div className="text-muted-foreground/50 w-full text-center text-xs">
                     <span className="text-muted-foreground/50">
-                        By using this app, you agree to the{' '}
+                        En utilisant cette application, vous acceptez les{' '}
                     </span>
                     <a href="/terms" className="hover:text-foreground underline">
-                        Terms of Service
+                        Conditions d'utilisation
                     </a>{' '}
-                    and{' '}
+                    et la{' '}
                     <a href="/privacy" className="hover:text-foreground underline">
-                        Privacy Policy
+                        Politique de confidentialité
                     </a>
                 </div>
                 <Button variant="ghost" size="sm" className="w-full" onClick={onClose}>
-                    Close
+                    Fermer
                 </Button>
             </div>
         </>
