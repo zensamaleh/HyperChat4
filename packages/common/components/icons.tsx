@@ -1,5 +1,15 @@
 import { cn } from '@repo/ui';
-import { IconBoltFilled, IconCodeDots, IconSpiral, IconTools } from '@tabler/icons-react';
+import {
+    IconBoltFilled,
+    IconCodeDots,
+    IconFilePlus,
+    IconSpiral,
+    IconTools,
+} from '@tabler/icons-react';
+
+export const NomenclatureDouaniereIcon = () => {
+    return <IconFilePlus size={20} strokeWidth={2} className="text-muted-foreground" />;
+};
 
 export const ToolIcon = ({ className }: { className?: string }) => {
     return (

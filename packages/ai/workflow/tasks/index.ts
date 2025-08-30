@@ -3,6 +3,7 @@ export * from './chat-mode-router';
 export * from './classification';
 export * from './completion';
 export * from './correction';
+export * from './nomenclature-douaniere';
 export * from './planner';
 export * from './pro-search';
 export * from './quick-search';

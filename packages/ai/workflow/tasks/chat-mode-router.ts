@@ -27,6 +27,8 @@ export const modeRoutingTask = createTask<WorkflowEventSchema, WorkflowContextSc
             redirectTo('correction');
         } else if (mode === ChatMode.CLASSIFICATION) {
             redirectTo('classification');
+        } else if (mode === ChatMode.NOMENCLATURE_DOUANIERE) {
+            redirectTo('nomenclature-douaniere');
         } else {
             redirectTo('completion');
         }

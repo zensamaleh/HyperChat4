@@ -28,7 +28,7 @@ import {
 import { AnimatePresence, motion } from 'framer-motion';
 import { usePathname, useRouter } from 'next/navigation';
 import { useState } from 'react';
-import { BYOKIcon, NewIcon } from '../icons';
+import { BYOKIcon, NewIcon, NomenclatureDouaniereIcon } from '../icons';
 
 export const chatOptions = [
     {
@@ -58,6 +58,13 @@ export const chatOptions = [
         value: ChatMode.CLASSIFICATION,
         icon: <IconTable size={16} className="text-muted-foreground" strokeWidth={2} />,
         creditCost: CHAT_MODE_CREDIT_COSTS[ChatMode.CLASSIFICATION],
+    },
+    {
+        label: 'Nomenclature Douanière',
+        description: 'Identifier la nomenclature douanière et les taxes applicables',
+        value: ChatMode.NOMENCLATURE_DOUANIERE,
+        icon: <NomenclatureDouaniereIcon />,
+        creditCost: CHAT_MODE_CREDIT_COSTS[ChatMode.NOMENCLATURE_DOUANIERE],
     },
 ];
 
