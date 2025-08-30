@@ -186,7 +186,7 @@ export const AgentProvider = ({ children }: { children: ReactNode }) => {
 
                     if (response.status === 429 && isSignedIn) {
                         errorText =
-                            'You have reached the daily limit of requests. Please try again tomorrow or Use your own API key.';
+                            'Vous avez atteint la limite quotidienne de requêtes. Veuillez réessayer demain ou utiliser votre propre clé API.';
                     }
 
                     if (response.status === 429 && !isSignedIn) {
@@ -306,7 +306,7 @@ export const AgentProvider = ({ children }: { children: ReactNode }) => {
                     updateThreadItem(body.threadId, {
                         id: body.threadItemId,
                         status: 'ERROR',
-                        error: 'You have reached the daily limit of requests. Please try again tomorrow or Use your own API key.',
+                        error: 'Vous avez atteint la limite quotidienne de requêtes. Veuillez réessayer demain ou utiliser votre propre clé API.',
                     });
                 } else {
                     updateThreadItem(body.threadId, {
