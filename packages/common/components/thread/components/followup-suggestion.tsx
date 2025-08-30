@@ -21,8 +21,8 @@ export const FollowupSuggestions = ({ suggestions }: { suggestions: string[] }) 
             className="border-border my-4 flex flex-col items-start gap-2 border-t border-dashed py-4"
         >
             <div className="text-muted-foreground flex flex-row items-center gap-1.5 py-2 text-xs font-medium">
-                <IconHelpHexagon size={16} strokeWidth={2} className="text-muted-foreground" /> Ask
-                Followup
+                <IconHelpHexagon size={16} strokeWidth={2} className="text-muted-foreground" /> Poser
+                une question de suivi
             </div>
             <motion.div
                 variants={{

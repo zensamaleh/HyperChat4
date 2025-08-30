@@ -63,7 +63,7 @@ export async function POST(request: NextRequest) {
 
         if (remainingCredits < creditCost && process.env.NODE_ENV !== 'development') {
             return new Response(
-                'You have reached the daily limit of requests. Please try again tomorrow or Use your own API key.',
+                'Vous avez atteint la limite quotidienne de requêtes. Veuillez réessayer demain ou utiliser votre propre clé API.',
                 { status: 429, headers: { 'Content-Type': 'application/json' } }
             );
         }
